@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+</head>
+<body>
+  <form id="myForm">
+    <label for="textInput">Enter Text:</label>
+    <input type="text" id="textInput" name="textInput">
+    <input type="button" value="Submit" onclick="google.script.run.processForm(document.getElementById('textInput').value)">
+  </form>
+</body>
+</html>
